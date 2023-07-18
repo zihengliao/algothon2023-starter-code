@@ -13,7 +13,3 @@ def getMyPosition (prcSoFar):
     rpos = np.array([int(x) for x in 2000 * lastRet / prcSoFar[:,-1]])
     currentPos = np.array(map(int, currentPos+rpos))
     return currentPos
-
-
-
-penis
